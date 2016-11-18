@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title></title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper-ani.css" />
+		<script src="js/typing.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/swiper.min.js"></script>
+		<script src="js/swiper-twice.js"></script>
+	</head>
+
+	<body>
+		<!--预加载-->
+		<div class="loading-box">
+			<img src="images/load.gif" class="load-img1 abs" />
+		</div>
+		<!--预加载-->
+		<audio src="images/music.mp3" controls="controls" loop="loop" preload id="music1" autoplay="autoplay" hidden></audio>
+		<div class="swiper-container">
+			<img src="images/music.gif" class="music-icon" onclick="bf()" />
+			<div class="swiper-wrapper">
+
+				<section class="swiper-slide swiper-slide1">
+					<div class="">
+						<div class="clear">
+							<img src="images/page1-adorn1.png" class="page1-adorn1 ani stat" data-slide-in="at 200 from fadeInRight use swing during 2600" />
+						</div>
+						<div class="page1-content1">
+							<img src="images/page1-title1.png" class="page1-title1 ani stat" data-slide-in="at 1000 from zoomInDown use swing during 2600" />
+							<div class="rel">
+								<img src="images/page1-adorn3.png" class="page1-star1 ani" data-slide-in="at 3700 from fadeIn use swing during 500" />
+								<img src="images/page1-adorn3.png" class="page1-star2 ani" data-slide-in="at 4600 from fadeIn use swing during 830" />
+								<img src="images/page1-adorn3.png" class="page1-star3 ani " data-slide-in="at 4800 from fadeIn use swing during 2120" />
+								<img src="images/page1-adorn3.png" class="page1-star4 ani" data-slide-in="at 4400 from fadeIn use swing during 740" />
+								<img src="images/page1-adorn3.png" class="page1-star5 ani" data-slide-in="at 4000 from fadeIn use swing during 712" />
+								<img src="images/page1-adorn2.png" class="page1-adorn2 ani stat" data-slide-in="at 3000 from vanishin use swing during 1600" />
+							</div>
+
+							<img src="images/page1-btn1.png" class="ani stat page1-btn1 tonext" data-slide-in="at 4000 from bounceInUp use swing during 1600" />
+						</div>
+					</div>
+					<img src="images/logo1.png" class="logo1 abs" />
+									<img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+				<section class="swiper-slide swiper-slide2">
+					<div id="typesource1" class="abs typesource">
+						2015年12月20日<br>
+						鲸灵号航行至L—JXM星系，能量，<br>
+						燃料充足，一切设备良好。出发近<br>8年，穿越银河系，搜索超潜能者...
+					</div>
+
+					<img src="images/page2-adorn1.png" class="ani page2-adorn1" data-slide-in="at 100 from zoomIn use swing during 2600" />
+					<img src="images/page2-adorn2.png" class="ani page2-adorn2" data-slide-in="at 500 from slideInRight use swing during 2600" />
+					<img src="images/page2-adorn3.png" class="ani page2-adorn3" />
+					<div class="ani page2-txt">
+						<span id="output1"></span><span class="typing-cursor">_</span>
+					</div>
+									<img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+				<section class="swiper-slide swiper-slide3">
+					<div class="page3-box abs">
+					<img src="images/page3-title1.png" class="page3-title1 ani stat" data-slide-in="at 100 from zoomInDown use swing during 1300" />
+					<div class="rel page3-content1 ani" data-slide-in="at 1500 from fadeIn use swing during 800">
+						<img src="images/page3-adorn3.png" class="ani page3-adorn3" />
+						<img src="images/page3-adorn2.png" class="ani page3-adorn2" />
+						<img src="images/page3-adorn1.png" class="page3-adorn1" />
+					</div>
+					<img src="images/page3-btn1.png" class="ani stat page1-btn1 page3-btn1" data-slide-in="at 2300 from vanishin use swing during 1000" />
+					</div>
+									<img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+				<section class="swiper-slide swiper-slide4">
+					<div id="typesource3" class="abs typesource">
+						已发现目标
+						<br>开始扫描分析...
+					</div>
+					<div class="rel page4-content1">
+						<div class="abs page4-adorn2">
+							<img src="images/page4-adorn20.png"/>
+						</div>
+						<img src="images/page4-adorn1.png" class="page4-adorn1 ani stat" data-slide-in="at 100 from fadeIn use swing during 900" />
+						<img src="images/page4-man1.png" class="page4-man1 ani infinite tonext" data-slide-in="at 100 from float use swing during 600" />
+						<img src="images/page4-man2.png" class="page4-man2 ani infinite tonext" data-slide-in="at 100 from float use swing during 1000" />
+						<img src="images/page4-man3.png" class="page4-man3 ani infinite tonext" data-slide-in="at 100 from float use swing during 1600" />
+						<img src="images/page4-man4.png" class="page4-man4 ani infinite tonext" data-slide-in="at 100 from float use swing during 1300" />
+					</div>
+					<center class="page4-btn1 ani stat tonext" data-slide-in="at 1000 from vanishin use swing during 900">
+						<span id="output3"></span><span class="typing-cursor">_</span>
+					</center>
+				</section>
+				<section class="swiper-slide swiper-slide5">
+					<!--描述-->
+					<div id="typesource4" class="abs typesource"></div>
+				    <div class="page5-content abs">
+				    	<div class="page5-top1 rel mb10">
+				    		<p class="page5-det"><span class="f-blue2" id="output4"></span><span class="typing-cursor">_</span></p>
+                              <img src="images/page5-name2.png" class="page5-names abs"/>
+				    	</div>
+                       <div class="page5-top2 clear rel">
+                       	<div class="fl rel page5-mans">
+                       	<!--人物-->
+                       	 <img src="images/page5-man2.png" class="page5-man"/>                       		
+                       	 <img src="images/page5-adorn6.png" class="page5-adorn6 abs"/>
+                       	 <img src="images/page5-adorn5.png" class="page5-adorn5 abs"/>
+                       	</div>
+                       	<div class="page5-skill1 page5-skills-box" style="display: block;">
+                       	<div class="page5-skill2-1 page5-skills skill-large ani infinite" data-slide-in="at 100 from float use swing during 1300">品牌推广</div>
+                       	<div class="page5-skill2-2 page5-skills skill-large ani infinite" data-slide-in="at 100 from float use swing during 600">团队管理</div>
+                       	<div class="page5-skill2-3 page5-skills skill-large ani infinite" data-slide-in="at 100 from float use swing during 800">数据分析</div>
+                       	<div class="page5-skill1-4 page5-skills skill-large ani infinite" data-slide-in="at 100 from float use swing during 1700">执行预算</div>
+                       	</div>
+                       	<div class="page5-skill2 page5-skills-box" >
+                       	<div class="page5-skill2-1 page5-skills skill-mid ani infinite" data-slide-in="at 100 from float use swing during 1300">JAVA</div>
+                       	<div class="page5-skill2-2 page5-skills skill-big ani infinite" data-slide-in="at 100 from float use swing during 600">HTML5</div>
+                       	<div class="page5-skill2-3 page5-skills skill-mini ani infinite" data-slide-in="at 100 from float use swing during 800">Ps</div>
+                       	<div class="page5-skill2-4 page5-skills skill-mid ani infinite" data-slide-in="at 100 from float use swing during 1700">C++</div>
+                       	</div>
+                       	<div class="page5-skill3 page5-skills-box" >
+                       	<div class="page5-skill2-1 page5-skills skill-big ani infinite" data-slide-in="at 100 from float use swing during 1300">PS</div>
+                       	<div class="page5-skill2-2 page5-skills skill-mid ani infinite" data-slide-in="at 100 from float use swing during 600">AI</div>
+                       	<div class="page5-skill2-3 page5-skills skill-big ani infinite" data-slide-in="at 100 from float use swing during 800">FLASH</div>
+                       	<div class="page5-skill2-4 page5-skills skill-mini ani infinite" data-slide-in="at 100 from float use swing during 1700">AE</div>
+                       	</div>
+                       	<div class="page5-skill4 page5-skills-box" >
+                       	<div class="page5-skill4-1 page5-skills skill-mid ani infinite" data-slide-in="at 100 from float use swing during 1300">word</div>
+                       	<div class="page5-skill2-2 page5-skills skill-big ani infinite" data-slide-in="at 100 from float use swing during 600">excel</div>
+                       	<div class="page5-skill4-4 page5-skills skill-mid ani infinite" data-slide-in="at 100 from float use swing during 1700">ppt</div>
+                       	</div>
+                       	
+                       </div>
+				    </div>	
+				     <img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+				<section class="swiper-slide swiper-slide6">
+					<!--职员描述-->
+					<div id="typesource5" class="abs typesource">
+					
+					</div>
+					<div class="page5-box abs">
+						<div class="page5-content1 clear rel">
+						<img src="images/page5-man1.png" class="page6-mans ani stat fl" data-slide-in="at 300 from zoomIn use swing during 500" />
+						<img src="images/page5-adorn2.png" class="page5-adorn2 abs" />
+						<div class="page6-txt1 t-center fl">
+							<!--职员名称-->
+							<center class="f-14 f-blue2 page6-job">程序猿</center>
+							<span id="output5" class="f-blue2">
+                
+    	 	 </span><span class="typing-cursor">_</span>
+						</div>
+					</div>
+					<img src="images/page6-btn1.png" class="page6-btn1 tonext" />
+					</div>
+					
+				</section>
+				<section class="swiper-slide swiper-slide7">
+					<div class="">
+						<div class="clear">
+							<img src="images/page1-adorn1.png" class="page1-adorn1 ani stat" data-slide-in="at 200 from fadeInRight use swing during 1600" />
+						</div>
+						<div class="abs page7-content1">
+							<img src="images/page7-adorn2.png" class="page7-adorn2 rotate" />
+							<img src="images/page7-adorn1.png" class="page7-adorn1 ani" data-slide-in='at 1400 from zoomIn use swing during 600' />
+						</div>
+						<div class="abs page7-content2">
+							<img src="images/page7-adorn3.png" class="ani stat" data-slide-in='at 1800 from slideOutUp1 use swing during 1500' />
+							<img src="images/page7-txt1.png" class="page7-txt1 ani" data-slide-in='at 2300 from fadeIn use swing during 500' />
+							<img src="images/page7-adorn4.png" class="ani stat" data-slide-in='at 1800 from slideOutDown1 use swing during 1500' />
+						</div>
+
+					</div>
+				</section>
+				<section class="swiper-slide swiper-slide8">
+					<div id="typesource7" class="abs typesource">
+						成绩
+						<br> 4万平米以上商业综合体合作百次成绩
+						<br> 覆盖百货业,房地产,医疗科技多领域
+						<br> 平台
+						<br> 河南省首家H5传播平台引领创新浪潮
+						<br> 科技
+						<br> 开发3D签到技术大屏互动技术汇
+						<br> 聚最新科技
+						<br> 领域
+						<br> 涵盖微游开发电子海报传播策划微信线上
+						<br> 活动百起单词转发量3000万
+					</div>
+					<div class="page8-content abs">
+						<img src="images/page8-adorn2.png" class="page8-adorn2" />
+						<center class="f-blue2">
+							<span id="output7" class="f-blue2"></span><span class="typing-cursor">_</span>
+						</center>
+					</div>
+									<img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+				<section class="swiper-slide swiper-slide9">
+					<div class="page9-content abs">
+						<img src="images/page9-adorn2.png" class="page9-adorn2" />
+						<div class="page9-listbox">
+							<div class="page9-list clear">
+								<img src="images/page9-list1.png" class="page9-list-left fl" />
+								<p class="lh-50 fl page9-det">丹尼斯猴年祈福</p>
+								<img src="images/page9-adorn3.png" class="page9-icon1 fr" />
+							</div>
+							<div class="page9-list clear">
+								<img src="images/page9-list2.png" class="page9-list-left fl" />
+								<p class="lh-50 fl page9-det">宝龙四世同堂</p>
+								<img src="images/page9-adorn3.png" class="page9-icon1 fr" />
+							</div>
+							<div class="page9-list clear">
+								<img src="images/page9-list3.png" class="page9-list-left fl" />
+								<p class="lh-50 fl page9-det">濮阳星光影视城</p>
+								<img src="images/page9-adorn3.png" class="page9-icon1 fr" />
+							</div>
+							<div class="page9-list clear">
+								<img src="images/page9-list4.png" class="page9-list-left fl" />
+								<p class="lh-50 fl page9-det">四川除火患 抽大奖</p>
+								<img src="images/page9-adorn3.png" class="page9-icon1 fr" />
+							</div>
+
+						</div>
+					</div>
+									<img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+               <section class="swiper-slide swiper-slide10">
+					<div class="page10-content abs">
+						<div class="page10-top1">
+							<div class="page10-adorn1">
+								<img src="images/page10-adorn0.png" />
+							</div>
+							<img src="images/page10-adorn3.png" class="page10-adorn3 ani infinite" data-slide-in="at 200 from zoomInLeft use swing during 1500" data-slide-out="at 1200 to zoomOut use swing during 1300 force" />
+							<img src="images/page10-adorn4.png" class="page10-adorn4 ani infinite"   data-slide-in="at 600 from zoomInRight use swing during 2050" data-slide-out="at 2200 to zoomOutLeft use swing during 2300 force"/>
+							<img src="images/page10-adorn5.png" class="page10-adorn5 ani infinite"  data-slide-in="at 1000 from zoomInDown use swing during 3500"  data-slide-out="at 2400 to zoomOutRight use swing during 1800 force" />
+							<!--人物-->
+							<img src="images/page5-man2.png" class="page10-man abs" />
+						
+						</div>
+						<img src="images/page10-adorn2.png" class="page10-bottom1" />
+					</div>
+				</section>
+				<section class="swiper-slide swiper-slide11">
+					<div class="page11-content abs">
+						<center class="mb10 ani stat page11-det" data-slide-in="at 200 from bounceInDown use swing during 600" >
+							
+						</center>
+						<center class="ani stat page11-advanced f-blue2" data-slide-in="at 600 from fadeIn use swing during 400">鲸灵号首席工程师</center>
+						<div class="rel page11-inner ani" data-slide-in="at 1200 from bounceIn use swing during 400">
+							<img src="images/page11-adorn2.png" />
+							<img src="images/page11-adorn3.png" class="page11-adorn3 abs" />
+							<!--人物-->
+							<img src="images/page11-man1.png" class="ani page11-header" data-slide-in="at 1600 from vanishin use swing during 1200" />
+						</div>
+						<img src="images/page11-adorn4.png" class="ani stat" data-slide-in="at 2800 from bounceInUp use swing during 600" />
+					</div>
+									<img src="images/arrow.png" class="tonext abs bottom-point"  />
+				</section>
+				<section class="swiper-slide swiper-slide12">
+					<div class="page12-content abs">
+						<img src="images/page12-adorn1.png" class="page12-adorn1" />
+						<div class="page12-inner">
+							<div class=" mb10">
+								<img src="images/page12-adorn3.png" class="page12-adorn3" />
+							</div>
+							<div class="page12-innerof1">
+								<img src="images/page12-adorn4.png" class="mb10" />
+								<img src="images/twocode.png" class="twocode mb10" />
+							</div>
+							<center class="f-blue2">关注公众号获取更多信息</center>
+							<p class="f-blue2">时间:2016/02/29
+								<br> 地址:河南省郑州金水区盛润国际东塔802室
+							</p>
+						</div>
+						<div class="clear page12-btn-box">
+							<center class="share-btn fl">分享</center>
+							<center class="fr tojob">查看其它职位&gt;</center>
+						</div>
+
+					</div>
+					<div class="mask share-mask">
+						<img src="images/shareimg1.png" class="share-img1"/>
+						<center class="f-blue2 f-14">转发到朋友圈 寻找更多潜能者</center>
+						<center class="ikonw-btn">我知道了</center>
+					</div>
+				</section>
+			</div>
+		</div>
+		<script>
+			var isGo1=0;
+			var isGo3=0;
+			var isGo4=0;
+			var isGo5=0;
+			var isGo7=0;
+			var typing1 = new Typing({source: document.getElementById('typesource1'), output: document.getElementById('output1'), delay: 0});
+            var typing3 = new Typing({source: document.getElementById('typesource3'), output: document.getElementById('output3'), delay: 120});
+            var typing4 = new Typing({source: document.getElementById('typesource4'), output: document.getElementById('output4'), delay: 180});
+            var typing5 = new Typing({source: document.getElementById('typesource5'), output: document.getElementById('output5'), delay: 80});
+			
+			
+			  var mySwiper = new Swiper ('.swiper-container', {
+			   direction : 'vertical',
+			   pagination: '.swiper-pagination',
+			   paginationClickable: true,
+			
+			  //virtualTranslate : true,
+			   mousewheelControl : true,
+			   onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+			    swiperAnimateCache(swiper); //隐藏动画元素 
+			    swiperAnimate(swiper); //初始化完成开始动画
+			  }, 
+			  onSlideChangeEnd: function(swiper){ 
+			    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+			     var i=swiper.activeIndex;
+			       if(i===1){
+			       	if(isGo1==0){
+			       		isGo1=1;
+			            typing1.start();
+			       	}
+			       	 
+			         
+			      };
+			      if(i===3){
+			      		if(isGo3==0){
+			       		isGo3=1;
+			         typing3.start();
+			       	}
+			       	 
+			      };
+			      if(i===4){
+			      	if(isGo4==0){
+			       		isGo4=1;
+			       		$("#typesource4").html('为方案榨干脑细胞，为执行说<br>破嘴皮，鲜花和掌声从不属于你');
+			            typing4.start();
+			       	}
+			       	
+			      };
+			       if(i===5){
+			       	if(isGo5==0){
+			       		isGo5=1;
+
+			            typing5.start();
+			       	}
+			       	 
+			      };
+			      if(i===6){
+			      	setTimeout(function(){
+			           mySwiper.slideTo(7, 1000, true);//切换到第一个slide，速度为1秒
+			      	},4000);
+
+			      };
+			       if(i===7){
+			       	if(isGo7==0){
+			       		isGo7=1;
+			       		 var typing7 = new Typing({source: document.getElementById('typesource7'), output: document.getElementById('output7'), delay: 0});
+			             typing7.start();
+			       	}
+			      };
+			      if(i===9){
+			      	setTimeout(function(){
+			           mySwiper.slideTo(10, 1000, true);//切换到第一个slide，速度为1秒
+			      	},4000);
+
+			      };
+			  } ,
+			  
+				
+				
+				watchSlidesProgress: true,
+			
+			      onProgress: function(swiper){
+			        for (var i = 0; i < swiper.slides.length; i++){
+			          var slide = swiper.slides[i];
+			          var progress = slide.progress;
+			          var translate = progress*swiper.height/4;  
+					  scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+			          var opacity = 1 - Math.min(Math.abs(progress/2),0.5);
+			          slide.style.opacity = opacity;
+					  es = slide.style;
+					  es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,'+translate+'px,-'+translate+'px) scaleY(' + scale + ')';
+			
+			        }
+			      },
+				   onSetTransition: function(swiper, speed) {
+			        for (var i = 0; i < swiper.slides.length; i++){
+			          es = swiper.slides[i].style;
+					  es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+			
+			        }
+			      },
+				  });
+				    $(function(){
+				    	$(".loading-box").hide();
+					//跳转到下一页
+							$(".tonext").click(function(event) {
+								mySwiper.slideNext();
+					});	
+//					
+//					var txt1=['为下属顶包，受上司鸟气，\r\n名片看着高大上，实际说话没人理 ',
+//					          '为系统而生,为框架而死睡<br>眠永远不足,青春总被bug耽误',
+//					          '不断修改的人生，理想被甲方<br>消耗殆尽，美感始终没达到',
+//					          '为方案榨干脑细胞，为执行说<br>破嘴皮，鲜花和掌声从不属于你'];
+//					var txt2=['总艰','程序猿','射鸡师','策划尸'];
+//					var txt3=[
+//					'可开发潜能95%<br>特征：洞察一切 严谨细致\n\n蜕变方向：鲸灵号首席指挥官',
+//					'可开发潜能80%<br>特征：勤奋 吃苦耐劳<br> 蜕变方向：鲸灵号技术总监',
+//					'可开发潜能90%<br>特征：小画家 合成高手<br>蜕变方向：鲸灵号艺术大师',
+//					'可开发潜能70%<br>特征：段子手 思维天马星空<br>蜕变方向：鲸灵号首席领航员'];
+//					var txt4=['鲸灵号首席指挥官','鲸灵号技术总监','鲸灵号艺术大师','鲸灵号首席领航员'];
+//					var txt5=['头顶光环无数，脚踩荣誉成堆。<br>无数才俊臣服，生活舒适安心',
+//					          '超人智商技术帝,从来不缺人民币<br>老板天天发红包 开发样样吊炸天',
+//					          '玩转色彩和线条,创意惊艳夺眼球，偶尔印象派，诗和远方都要有',
+//					          '思维快准狠，文字软萌贱，生活智商高，鲜肉常不断。'];
+					
+					
+					//第4页 选择人物
+					  //1 总艰
+					$(".page4-man1").on('click',function(){
+						//第5页
+						   //人物
+						   $(".page5-man").attr('src','images/page5-man1.png');
+						   //描述
+						   //$("#typesource4").html('');
+						   $("#typesource4").html('为下属顶包，受上司鸟气，<br>名片看着高大上，实际说话没人理');
+						   typing4.start();
+						   //名称
+						   $(".page5-names").attr('src','images/page5-name1.png');
+						   //技能
+						   $(".page5-skill1").show().siblings(".page5-skills-box").hide();
+						//第6页
+						  //头像
+			              $(".page6-mans").attr('src','images/page5-man1.png');
+			              //名称
+			              $(".page6-job").html('总艰');
+			              //描述
+			              $("#output5").html('可开发潜能95%<br>特征：洞察一切 严谨细致<br>蜕变方向：鲸灵号首席指挥官');
+			            //第10页 人物
+			              $(".page10-man").attr('src','images/page5-man1.png');
+			            //第11页 
+			              //头像
+			              $(".page11-header").attr('src','images/page11-man1.png');
+			              //名称
+			              $(".page11-advanced").html('鲸灵号首席指挥官');
+			              //描述
+			              $(".page11-det").html('头顶光环无数，脚踩荣誉成堆。<br>无数才俊臣服，生活舒适安心');
+					});
+					 //2 程序猿
+					$(".page4-man2").on('click',function(){
+						//第5页
+						   //人物
+						   $(".page5-man").attr('src','images/page5-man2.png');
+						   //描述
+						  						   //$("#typesource4").html('');
+						   $("#typesource4").html('为系统而生,为框架而死<br>睡眠永远不足,青春总被bug耽误');
+						   typing4.start();
+						   //名称
+						   $(".page5-names").attr('src','images/page5-name2.png');
+						   //技能
+						   $(".page5-skill2").show().siblings(".page5-skills-box").hide();
+						//第6页
+						  //头像
+			              $(".page6-mans").attr('src','images/page5-man2.png');
+			              //名称
+			              $(".page6-job").html('程序猿');
+			              //描述
+			              $("#output5").html('可开发潜能80%<br>特征：勤奋 吃苦耐劳<br> 蜕变方向：鲸灵号技术总监');
+			            //第10页 人物
+			              $(".page10-man").attr('src','images/page5-man2.png');
+			            //第11页 
+			              //头像
+			              $(".page11-header").attr('src','images/page11-man2.png');
+			              //名称
+			              $(".page11-advanced").html('鲸灵号技术总监');
+			              //描述
+			              $(".page11-det").html('超人智商技术帝,从来不缺人民币<br>老板天天发红包 开发样样吊炸天');
+					});
+					//3 射鸡师
+					$(".page4-man3").on('click',function(){
+						//第5页
+						   //人物
+						   $(".page5-man").attr('src','images/page5-man3.png');
+						   //描述
+						   $("#typesource4").html('不断修改的人生，理想被甲方<br>消耗殆尽，美感始终没达到');
+						   typing4.start();
+						   //名称
+						   $(".page5-names").attr('src','images/page5-name3.png');
+						   //技能
+						   $(".page5-skill3").show().siblings(".page5-skills-box").hide();
+						//第6页
+						  //头像
+			              $(".page6-mans").attr('src','images/page5-man3.png');
+			              //名称
+			              $(".page6-job").html('射鸡师');
+			              //描述
+			              $("#output5").html('可开发潜能90%<br>特征：小画家 合成高手<br>蜕变方向：鲸灵号艺术大师');
+			            //第10页 人物
+			              $(".page10-man").attr('src','images/page5-man3.png');
+			            //第11页 
+			              //头像
+			              $(".page11-header").attr('src','images/page11-man3.png');
+			              //名称
+			              $(".page11-advanced").html('鲸灵号艺术大师');
+			              //描述
+			              $(".page11-det").html('玩转色彩和线条,创意惊艳夺眼球，<br>偶尔印象派，诗和远方都要有');
+					});
+					//4 策划尸
+					$(".page4-man4").on('click',function(){
+						//第5页
+						   //人物
+						   $(".page5-man").attr('src','images/page5-man4.png');
+						   //描述
+						   $("#typesource4").html('为方案榨干脑细胞，为执行说<br>破嘴皮，鲜花和掌声从不属于你');
+						   typing4.start();
+						   //名称
+						   $(".page5-names").attr('src','images/page5-name4.png');
+						   //技能
+						   $(".page5-skill4").show().siblings(".page5-skills-box").hide();
+						//第6页
+						  //头像
+			              $(".page6-mans").attr('src','images/page5-man4.png');
+			              //名称
+			              $(".page6-job").html('策划尸');
+			              //描述
+			              $("#output5").html('可开发潜能70%<br>特征：段子手 思维天马星空<br>蜕变方向：鲸灵号首席领航员');
+			            //第10页 人物
+			              $(".page10-man").attr('src','images/page5-man4.png');
+			            //第11页 
+			              //头像
+			              $(".page11-header").attr('src','images/page11-man4.png');
+			              //名称
+			              $(".page11-advanced").html('鲸灵号首席领航员');
+			              //描述
+			              $(".page11-det").html('思维快准狠，文字软萌贱，<br>生活智商高，鲜肉常不断。');
+					});
+					//打开分享
+	                     $(".share-btn").on('click',function(){
+		                   $(".share-mask").fadeIn(300);
+	                      });
+	                //关闭分享
+	                     $(".share-mask").on('click',function(){
+		                   $(this).fadeOut(300);
+	                      });
+	                      //开始搜索
+	                      
+	                      $(".page3-btn1").on('click',function(){
+	                      	$(".page3-adorn1").addClass('reverse-rotate');
+	                      	$(".page3-adorn2").addClass('rotate');
+	                      	setTimeout(function(){
+	                      		mySwiper.slideTo(3, 1000, true);
+	                      	},1200);
+	                      	
+	                      });
+	                //查看更多职位
+	                $('.tojob').click(function(){
+                     mySwiper.slideTo(3, 1000, true);
+                     });
+	                
+				   })
+		</script>
+	</body>
+
+</html>
